@@ -3,5 +3,8 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"python.pythonPath": "C:\\Users\\lenovo\\.virtualenvs\\django_REST_framework-WSUJOTVM\\Scripts\\python.exe"
+	}
 }
