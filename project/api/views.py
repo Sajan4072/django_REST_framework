@@ -25,7 +25,7 @@ def article_list(request):
             return Response(serializer.data,status.HTTP_201_CREATED)
         return Response(serializer.errors,status=status.HTTP_400_BAD_REQUEST)    
 
-@csrf_exempt
+
 def article_detail(request,pk):
     try:
         article=Article.objects.get(pk=pk)
