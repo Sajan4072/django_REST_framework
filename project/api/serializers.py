@@ -19,4 +19,9 @@ class ArticleSerializer(serializers.Serializer):
         instance.date=validated_data.get('date',instance.date)
         instance.save()
         return instance
-     
+
+#alternate method ModelSerializer class
+#class ArticleSerializer(serializers.ModelSerializer):
+    #class Meta:
+        #model=Article
+        #fields=['id','title','author']
