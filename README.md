@@ -14,9 +14,9 @@ Django REST framework allows us to develop restfull Web APIs. This is an example
 - clone or download the repo
 - Use pipenv for virtual environment\
 `pipenv install --dev`
--If virtual enviroment is already activated\
+- If virtual enviroment is already activated\
 `pipenv sync         `
--Or\
+- Or\
 `pipenv sync --dev   `
 
 
