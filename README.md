@@ -4,18 +4,18 @@ Django REST framework allows us to develop restfull Web APIs. This is an example
 
 
 ## Packages
-.djangorestframework\
-.django\
-.markdown\
-.django-filter
+- djangorestframework
+- django
+- markdown
+- django-filter
 
 
 ## Setting up the project
--clone or download the repo\
--Use pipenv for virtual environment \
-`pipenv install --dev`\
+- clone or download the repo
+- Use pipenv for virtual environment\
+`pipenv install --dev`
 -If virtual enviroment is already activated\
-`pipenv sync         `\
+`pipenv sync         `
 -Or\
 `pipenv sync --dev   `
 
