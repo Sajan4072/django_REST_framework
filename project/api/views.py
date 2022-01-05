@@ -13,7 +13,7 @@ from rest_framework import status
 def article_list(request):
     if request.method=='GET':
         articles=Article.objects.all()
-        serializer=ArticleSerializer(articles,many=True)
+        serializer=ArticleSerializer(articles,many=True)    ##Ck why is it many equls true 
         return Response(serializer.data)
 
     elif request.method=='POST':
